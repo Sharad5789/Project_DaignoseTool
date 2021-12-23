@@ -1,0 +1,1781 @@
+/* css for page starts */
+
+/* import font from url */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.content-body{
+    margin-left: -12px !important;
+    margin-right: 0 !important;
+}
+.indigu_columnDiagnose{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.indigu_textOneClick h1{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #081131;
+}
+.indigu_columnDiagnoseSpan1 ::after{
+    content: "\A";
+    white-space: pre;
+}
+.indigu_columnDiagnoseSpan4_inner{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #520E1F;
+}
+.indigu_textWelcome{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #6D7D93;
+}
+.indigu_diagnoseBtn{
+    background-color: #520E1F;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.indigu_diagnoseBtn span{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.indigu_columnDiagnoseImage{
+    position: relative;
+}
+.indigu_columnDiagnoseImagePlay{
+    position: absolute;
+    left: 47%;
+    top: 37%;
+}
+
+.indigu_textHowItWorksSimpleSteps{
+    margin-top: 150px;
+}
+.indigu_textTitle{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #520E1F;
+}
+.indigu_textDisc{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #081131;
+}
+.indigu_textColumn_1_number{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.1);
+}
+.indigu_textColumn_1 img{
+    margin-top: -10px;
+    width: 20%;
+    padding: 15px;
+    background: #FFFCF2;
+    border-radius: 5px;
+}
+.indigu_textColumn_1_title{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #081131;
+}
+.indigu_textColumn_1_disc{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #6D7D93;
+}
+.indigu_textColumn_2_number{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.1);
+}
+.indigu_textColumn_2 img{
+    margin-top: -10px;
+    width: 20%;
+    padding: 15px;
+    background: #FEF5F5;
+    border-radius: 5px;
+}
+.indigu_textColumn_2_title{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #081131;
+}
+.indigu_textColumn_2_disc{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #6D7D93;
+}
+.indigu_textColumn_3_number{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.1);
+}
+.indigu_textColumn_3 img{
+    margin-top: -10px;
+    width: 20%;
+    padding: 15px;
+    background: #F5FCF6;
+    border-radius: 5px;
+}
+.indigu_textColumn_3_title{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #081131;
+}
+.indigu_textColumn_3_disc{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #6D7D93;
+}
+.indigu_textTestimonialsAndWords{
+    margin-top: 150px;
+}
+.indigu_columnNickAndRush{
+    margin-top: 7%;
+}
+.indigu_columnNickAndRush img{
+    margin-left: 15px;
+    width: 80px;
+    height: 80px;
+}
+#indigu_columnNickAndRushSpanTitle{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #081131;
+}
+#indigu_columnNickAndRushSpanSubtitle{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6D7D93;
+}
+.indigu_columnNick p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #081131;
+    max-width: 95%;
+}
+.indigu_columnRush p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #081131;
+    max-width: 90%;
+}
+.indigu_columnNickArrow{
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14);
+}
+.indigu_columnRushArrow{
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14);
+}
+.indigu_textAboutIndigu{
+    margin-top: 150px;
+}
+.indigu_columAboutIndiguImage{
+    margin-top: 100px;
+    max-height: 100%;
+    border-radius: 0px 30px 30px 0px;
+}
+.indigu_columAboutIndiguImageRectangle{
+    margin-top: -30px;
+    width: 72%;
+}
+.indigu_AboutIndiguTitle{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 54px;
+    color: #081131;
+}
+.indigu_AboutIndiguDisc1{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    width: 75%;
+}
+.indigu_AboutIndiguDisc2{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    width: 69%;
+}
+.indigu_AboutIndiguReadmore{
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #520E1F;
+}
+.indigu_joinTheIndiguPLP{
+    margin-top: 10%;
+}
+.indigu_joinTheIndiguPLP .card{
+    background: #001F34;
+    padding: 10%;
+    border-radius: 12px;
+}
+.indigu_joinTheIndiguPLPText{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 54px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.indigu_joinTheIndiguPLPText ::before{
+    content: '\a';
+    white-space: pre;
+}
+.indigu_joinTheIndiguPLPSpan{
+    font-weight: 800;
+}
+.indigu_joinTheIndiguPLP button{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: bold;
+    background: #001F34;
+    border: 1px solid rgba(255, 255, 255, 0.48);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.indigu_joinTheIndiguPLP button:hover{
+    color: #001F34 !important ;
+    background: #FFFFFF;
+}
+/* css for page ended */
+
+
+
+
+
+/* for Responsive Design */
+
+@media only screen and (min-width: 280px) and (max-width: 349.98px) {
+    .indigu_textOneClick h1{
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 0.5px;
+        margin-top: 50px;
+        text-align: center;        
+    }
+    .indigu_columnDiagnoseSpan4_inner{
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 0.5px;       
+    }
+    .indigu_textWelcome{
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .indigu_diagnoseBtn{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .indigu_diagnoseBtn span{
+        font-size: 10px;
+    }
+    .indigu_columnDiagnoseImage{
+        width: 290px;
+        margin-top: 10%;
+    }
+    .indigu_columnDiagnoseImagePlay{
+        top: 40%;
+        width: 20%;
+    }
+    .indigu_textHowItWorksSimpleSteps{
+        margin-top: 120%;
+    }
+    .indigu_textTitle{
+        font-size: 12px;
+    }
+    .indigu_textDisc{
+        font-size: 24px;
+        letter-spacing: 0.5px;
+        line-height: 10px;
+    }
+    .indigu_textColumn_1_number{
+        font-size: 16px;
+    }
+    .indigu_textColumn_1 img{
+        margin-top: -5px;
+        width: 18%;
+        padding: 10px;
+    }
+    .indigu_textColumn_1_title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .indigu_textColumn_1_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_2_number{
+        font-size: 16px;
+    }
+    .indigu_textColumn_2 img{
+        margin-top: -5px;
+        width: 18%;
+        padding: 10px;
+    }
+    .indigu_textColumn_2_title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .indigu_textColumn_2_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_3_number{
+        font-size: 16px;
+    }
+    .indigu_textColumn_3 img{
+        margin-top: -5px;
+        width: 18%;
+        padding: 10px;
+    }
+    .indigu_textColumn_3_title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .indigu_textColumn_3_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textTestimonialsAndWords{
+        margin-top: 25%;
+    }
+    .indigu_textWords{
+        margin-bottom: 10%;
+    }
+    .indigu_columnNickAndRush{
+        margin-top: 25%;
+    }
+    .indigu_columnNickAndRush img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+    }
+    #indigu_columnNickAndRushSpanTitle{
+        font-size: 10px;
+        display:table;
+        margin:0 auto;
+    }
+    #indigu_columnNickAndRushSpanTitle::after{
+        content: "\a";
+        white-space: pre;
+    }
+    #indigu_columnNickAndRushSpanSubtitle{      
+        font-size: 10px;
+        display:table;
+        margin:0 auto;
+    }
+    .indigu_columnNick p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .indigu_columnRush p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .indigu_columnNickArrow{
+        width: 30px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-right: 52%;
+    }
+    .indigu_columnRushArrow{
+        width: 30px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        margin-top: -50px;
+        margin-left: 52%;
+    }
+    .indigu_textAboutIndigu{
+        margin-top: 25%;
+    }
+    .indigu_columAboutIndiguImage{
+        margin-top: 20%;
+    }
+    .indigu_AboutIndiguTitle{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 10px;
+        width: 100% !important;
+    }
+    .indigu_AboutIndiguDisc1{
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .indigu_AboutIndiguDisc2{
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .indigu_AboutIndiguReadmore{
+        font-size: 13px;
+    }
+    .indigu_joinTheIndiguPLP{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .indigu_joinTheIndiguPLP .card{
+        padding: 3%;
+    }
+    .indigu_joinTheIndiguPLP .card-title{
+        font-size: 25px;
+        line-height: 33px;
+        margin-top: 10px;
+    }
+    .indigu_joinTheIndiguPLP button{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 314.98px) {
+    .indigu_columnDiagnoseImage{
+        width: 255px;
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 350px) and (max-width: 410.98px) {
+    .indigu_textOneClick h1{
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.5px;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .indigu_columnDiagnoseSpan4_inner{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .indigu_textWelcome{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .indigu_diagnoseBtn{
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .indigu_diagnoseBtn span{
+        font-size: 10px;
+    }
+    .indigu_columnDiagnoseImage{
+        width: 335px;
+        margin-top: 10%;
+    }
+    .indigu_columnDiagnoseImagePlay{
+        width: 18%;
+    }
+    .indigu_textHowItWorksSimpleSteps{
+        margin-top: 110%;
+    }
+    .indigu_textTitle{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .indigu_textDisc{
+        font-size: 24px;
+        letter-spacing: 0.5px;
+        line-height: 10px;
+    }
+    .indigu_textColumn_1_number{
+        font-size: 15px;
+    }
+    .indigu_textColumn_1 img{
+        margin-top: -5px;
+        width: 18%;
+        padding: 10px;
+    }
+    .indigu_textColumn_1_title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .indigu_textColumn_1_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_2_number{
+        font-size: 16px;
+    }
+    .indigu_textColumn_2 img{
+        margin-top: -5px;
+        width: 18%;
+        padding: 10px;
+    }
+    .indigu_textColumn_2_title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .indigu_textColumn_2_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_3_number{
+        font-size: 16px;
+    }
+    .indigu_textColumn_3 img{
+        margin-top: -5px;
+        width: 18%;
+        padding: 10px;
+    }
+    .indigu_textColumn_3_title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .indigu_textColumn_3_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textTestimonialsAndWords{
+        margin-top: 25%;
+    }
+    .indigu_textWords{
+        margin-bottom: 8%;
+    }
+    .indigu_columnNickAndRush{
+        margin-top: 20%;
+    }
+    .indigu_columnNickAndRush img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+    }
+    #indigu_columnNickAndRushSpanTitle{      
+        font-size: 16px;
+        line-height: 24px;
+        display:table;
+        margin:0 auto;
+    }
+    #indigu_columnNickAndRushSpanTitle::after{
+        content: "\a";
+        white-space: pre;
+    }
+    #indigu_columnNickAndRushSpanSubtitle{      
+        font-size: 16px;
+        line-height: 24px;
+        display:table;
+        margin:0 auto;
+    }
+    .indigu_columnNick p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .indigu_columnRush p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .indigu_columnNickArrow{
+        width: 30px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-right: 52%;
+    }
+    .indigu_columnRushArrow{
+        width: 30px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        margin-top: -50px;
+        margin-left: 52%;
+    }
+    .indigu_textAboutIndigu{
+        margin-top: 20%;
+    }
+    .indigu_columAboutIndiguImage{
+        margin-top: 20%;
+    }
+    .indigu_AboutIndiguTitle{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 10%;
+    }
+    .indigu_AboutIndiguDisc1{
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+    }
+    .indigu_AboutIndiguDisc2{
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+    }
+    .indigu_AboutIndiguReadmore{
+        font-size: 13px;
+    }
+    .indigu_joinTheIndiguPLP{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .indigu_joinTheIndiguPLP .card{
+        padding: 3%;
+    }
+    .indigu_joinTheIndiguPLPText{
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    .indigu_joinTheIndiguPLP button{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 411px) and (max-width: 459.98px) {
+    .indigu_textOneClick h1{
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .indigu_columnDiagnoseSpan4_inner{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .indigu_textWelcome{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .indigu_diagnoseBtn{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .indigu_diagnoseBtn span{
+        font-size: 14px;
+    }
+    .indigu_columnDiagnoseImage{
+        width: 385px;
+        margin-top: 10%;
+    }
+    .indigu_columnDiagnoseImagePlay{
+        width: 18%;
+    }
+    .indigu_textHowItWorksSimpleSteps{
+        margin-top: 100%;
+    }
+    .indigu_textTitle{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .indigu_textDisc{
+        font-size: 24px;
+        letter-spacing: 0.5px;
+        line-height: 10px;
+    }
+    .indigu_textColumn_1_number{
+        font-size: 18px;
+    }
+    .indigu_textColumn_1 img{
+        margin-top: -7px;
+        width: 18%;
+        padding: 10px;
+    }
+    .indigu_textColumn_1_title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .indigu_textColumn_1_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_2_number{
+        font-size: 18px;
+    }
+    .indigu_textColumn_2 img{
+        margin-top: -7px;
+        width: 18%;
+        padding: 10px;
+    }
+    .indigu_textColumn_2_title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .indigu_textColumn_2_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_3_number{
+        font-size: 18px;
+    }
+    .indigu_textColumn_3 img{
+        margin-top: -7px;
+        width: 18%;
+        padding: 10px;
+    }
+    .indigu_textColumn_3_title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .indigu_textColumn_3_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textTestimonialsAndWords{
+        margin-top: 25%;
+    }
+    .indigu_textWords{
+        margin-bottom: 7%;
+    }
+    .indigu_columnNickAndRush{
+        margin-top: 20%;
+    }
+    .indigu_columnNickAndRush img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+    }
+    #indigu_columnNickAndRushSpanTitle{      
+        font-size: 16px;
+        line-height: 24px;
+        display:table;
+        margin:0 auto;
+    }
+    #indigu_columnNickAndRushSpanTitle::after{
+        content: "\a";
+        white-space: pre;
+    }
+    #indigu_columnNickAndRushSpanSubtitle{      
+        font-size: 16px;
+        line-height: 24px;
+        display:table;
+        margin:0 auto;
+    }
+    .indigu_columnNick p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .indigu_columnRush p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .indigu_columnNickArrow{
+        width: 30px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 52%;
+    }
+    .indigu_columnRushArrow{
+        width: 30px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        margin-top: -50px;
+        margin-left: 52%;
+    }
+    .indigu_textAboutIndigu{
+        margin-top: 25%;
+    }
+    .indigu_columAboutIndiguImage{
+        margin-top: 20%;
+    }
+    .indigu_AboutIndiguTitle{
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 10%;
+    }
+    .indigu_AboutIndiguDisc1{
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+    }
+    .indigu_AboutIndiguDisc2{
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+    }
+    .indigu_AboutIndiguReadmore{
+        font-size: 13px;
+    }
+    .indigu_joinTheIndiguPLP .card{
+        padding: 3%;
+    }
+    .indigu_joinTheIndiguPLPText{
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 10px;
+    }
+    .indigu_joinTheIndiguPLP button{
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 460px) and (max-width: 767.98px) {
+    .indigu_textOneClick h1{
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 1px;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .indigu_columnDiagnoseSpan4_inner{
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    .indigu_textWelcome{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .indigu_diagnoseBtn{
+        width: 100%;
+        border-radius: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .indigu_diagnoseBtn span{
+        font-size: 15px;
+    }
+    .indigu_columnDiagnoseImage{
+        width: 520px;
+        margin-top: 10%;
+    }
+    .indigu_columnDiagnoseImagePlay{
+        width: 18%;
+    }
+    .indigu_textHowItWorksSimpleSteps{
+        margin-top: 450px;
+    }
+    .indigu_textTitle{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .indigu_textDisc{
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+    }
+    .indigu_textColumn_1_number{
+        font-size: 18px;
+    }
+    .indigu_textColumn_1 img{
+        margin-top: -7px;
+        width: 10%;
+        padding: 10px;
+    }
+    .indigu_textColumn_1_title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .indigu_textColumn_1_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_2_number{
+        font-size: 18px;
+    }
+    .indigu_textColumn_2 img{
+        margin-top: -7px;
+        width: 10%;
+        padding: 10px;
+    }
+    .indigu_textColumn_2_title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .indigu_textColumn_2_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_3_number{
+        font-size: 18px;
+    }
+    .indigu_textColumn_3 img{
+        margin-top: -7px;
+        width: 10%;
+        padding: 10px;
+    }
+    .indigu_textColumn_3_title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .indigu_textColumn_3_disc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .indigu_textTestimonialsAndWords{
+        margin-top: 10%;
+    }
+    .indigu_columnNickAndRush img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+    }
+    #indigu_columnNickAndRushSpanTitle{
+        font-size: 16px;
+        display:table;
+        margin:0 auto;
+    }
+    #indigu_columnNickAndRushSpanTitle::after{
+        content: "\a";
+        white-space: pre;
+    }
+    #indigu_columnNickAndRushSpanSubtitle{      
+        font-size: 16px;
+        display:table;
+        margin:0 auto;
+    }
+    .indigu_columnNick p{
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 100%;
+    }
+    .indigu_columnRush p{
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 100%;
+    }
+    .indigu_columnNickArrow{
+        width: 30px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 52%;
+    }
+    .indigu_columnRushArrow{
+        width: 30px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        margin-top: -50px;
+        margin-left: 52%;
+    }
+    .indigu_textAboutIndigu{
+        margin-top: 10%;
+    }
+    .indigu_AboutIndiguTitle{
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 10%;
+    }
+    .indigu_AboutIndiguDisc1{
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+    .indigu_AboutIndiguDisc2{
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+    .indigu_AboutIndiguReadmore{
+        font-size: 13px;
+    }
+    .indigu_joinTheIndiguPLP{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .indigu_joinTheIndiguPLP .card{
+        padding: 3%;
+    }
+    .indigu_joinTheIndiguPLPText{
+        font-size: 40px;
+        line-height: 54px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .indigu_joinTheIndiguPLP button{
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .indigu_textOneClick h1{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 15%;
+    }
+    .indigu_columnDiagnoseSpan1::after{
+        content: "\A";
+        white-space: pre;
+    }
+    .indigu_columnDiagnoseSpan2::after{
+        content: "\A";
+        white-space: pre;
+    }
+    .indigu_columnDiagnoseSpan4_inner{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .indigu_textWelcome{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .indigu_diagnoseBtn{
+        border-radius: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .indigu_diagnoseBtn span{
+        font-size: 10px;
+    }
+    .indigu_columnDiagnoseImage{
+        width: 370px;
+        margin-top: 5%;
+    }
+    .indigu_columnDiagnoseImagePlay{
+        width: 15%;
+    }
+    .indigu_textHowItWorksSimpleSteps{
+        margin-top: 10%;
+    }
+    .indigu_textTitle{
+        font-size: 12px;
+    }
+    .indigu_textDisc{
+        font-size: 28px;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+    }
+    .indigu_textColumn_1_number{
+        font-size: 18px;
+    }
+    .indigu_textColumn_1 img{
+        margin-top: -5px;
+        width: 25%;
+        padding: 10px;
+    }
+    .indigu_textColumn_1_title{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .indigu_textColumn_1_disc{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .indigu_textColumn_2_number{
+        font-size: 18px;
+    }
+    .indigu_textColumn_2 img{
+        margin-top: -5px;
+        width: 25%;
+        padding: 10px;
+    }
+    .indigu_textColumn_2_title{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .indigu_textColumn_2_disc{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .indigu_textColumn_3_number{
+        font-size: 18px;
+    }
+    .indigu_textColumn_3 img{
+        margin-top: -5px;
+        width: 25%;
+        padding: 10px;
+    }
+    .indigu_textColumn_3_title{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .indigu_textColumn_3_disc{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .indigu_textTestimonialsAndWords{
+        margin-top: 10%;
+    }
+    .indigu_textWords{
+        margin-bottom: 0%;
+    }
+    .indigu_columnNickAndRush img{
+        margin-left: 15px;
+        width: 40px;
+        height: 40px;
+    }
+    #indigu_columnNickAndRushSpanTitle{
+        font-size: 12px;
+    }
+    #indigu_columnNickAndRushSpanSubtitle{      
+        font-size: 12px;
+    }
+    .indigu_columnNick p{
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 93%;
+    }
+    .indigu_columnRush p{
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 93%;
+    }
+    .indigu_textAboutIndigu{
+        margin-top: 10%;
+    }
+    .indigu_columAboutIndiguImage{
+        margin-top: 10%;
+    }
+    .indigu_AboutIndiguTitle{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 15%;
+    }
+    .indigu_AboutIndiguDisc1{
+        font-size: 12px;
+        line-height: 20px;
+        width: 95%;
+    }
+    .indigu_AboutIndiguDisc2{
+        font-size: 12px;
+        line-height: 20px;
+        width: 81%;
+    }
+    .indigu_AboutIndiguReadmore{
+        font-size: 10px;
+    }
+    .indigu_joinTheIndiguPLP{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .indigu_joinTheIndiguPLP .card{
+        padding: 3%;
+    }
+    .indigu_joinTheIndiguPLP .card-title{
+        font-size: 40px;
+        line-height: 54px;
+        margin-top: 20px;
+    }
+    .indigu_joinTheIndiguPLP button{
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+        font-size: 14px;
+        margin-top: -140px;
+        margin-left: 380px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .indigu_textOneClick h1{
+        font-size: 28px;
+        line-height: 40px;
+        margin-top: 5%;
+    }
+    .indigu_columnDiagnoseSpan1::after{
+        content: "\A";
+        white-space: pre;
+    }
+    .indigu_columnDiagnoseSpan2::after{
+        content: "\A";
+        white-space: pre;
+    }
+    .indigu_columnDiagnoseSpan4_inner{
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    .indigu_textWelcome{
+        font-size: 15px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .indigu_diagnoseBtn{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .indigu_diagnoseBtn span{
+        font-size: 15px;
+    }
+    .indigu_columnDiagnoseImage{
+        width: 480px;
+    }
+    .indigu_columnDiagnoseImagePlay{
+        width: 15%;
+    }
+    .indigu_textHowItWorksSimpleSteps{
+        margin-top: 10%;
+    }
+    .indigu_textColumn_1_number{
+        font-size: 22px;
+    }
+    .indigu_textColumn_1 img{
+        margin-top: -8px;
+        width: 25%;
+        padding: 15px;
+    }
+    .indigu_textColumn_1_title{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .indigu_textColumn_1_disc{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_2_number{
+        font-size: 22px;
+    }
+    .indigu_textColumn_2 img{
+        margin-top: -8px;
+        width: 25%;
+        padding: 15px;
+    }
+    .indigu_textColumn_2_title{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .indigu_textColumn_2_disc{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .indigu_textColumn_3_number{
+        font-size: 22px;
+    }
+    .indigu_textColumn_3 img{
+        margin-top: -8px;
+        width: 25%;
+        padding: 15px;
+    }
+    .indigu_textColumn_3_title{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .indigu_textColumn_3_disc{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .indigu_textTestimonialsAndWords{
+        margin-top: 10%;
+    }
+    .indigu_columnNickAndRush img{
+        margin-left: 15px;
+        width: 80px;
+        height: 80px;
+    }
+    #indigu_columnNickAndRushSpanTitle{
+        font-size: 14px;
+    }
+    #indigu_columnNickAndRushSpanSubtitle{      
+        font-size: 14px;
+    }
+    .indigu_columnNick p{
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 97%;
+    }
+    .indigu_columnRush p{
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 84%;
+    }
+    .indigu_textAboutIndigu{
+        margin-top: 10%;
+    }
+    .indigu_columAboutIndiguImage{
+        margin-top: 10%;
+    }
+    .indigu_AboutIndiguTitle{
+        font-size: 30px;
+        line-height: 50px;
+        margin-top: 15%;
+    }
+    .indigu_AboutIndiguDisc1{
+        font-size: 14px;
+        line-height: 20px;
+        width: 95%;
+    }
+    .indigu_AboutIndiguDisc2{
+        font-size: 14px;
+        line-height: 20px;
+        width: 80%;
+    }
+    .indigu_AboutIndiguReadmore{
+        font-size: 12px;
+    }
+    .indigu_joinTheIndiguPLP{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .indigu_joinTheIndiguPLP .card{
+        padding: 3%;
+    }
+    .indigu_joinTheIndiguPLP .card-title{
+        font-size: 45px;
+        line-height: 54px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .indigu_joinTheIndiguPLP button{
+        font-size: 16px;
+        margin-top: -140px;
+        margin-left: 550px;
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    .indigu_textOneClick h1{
+        font-size: 33px;
+        line-height: 50px;
+        margin-top: 5%;
+    }
+    .indigu_columnDiagnoseSpan1::after{
+        content: "\A";
+        white-space: pre;
+    }
+    .indigu_columnDiagnoseSpan2::after{
+        content: "\A";
+        white-space: pre;
+    }
+    .indigu_columnDiagnoseSpan4_inner{
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .indigu_textWelcome{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .indigu_diagnoseBtn{
+        border-radius: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .indigu_diagnoseBtn span{
+        font-size: 16px;
+    }
+    .indigu_columnDiagnoseImage{
+        width: 600px;
+    }
+    .indigu_textHowItWorksSimpleSteps{
+        margin-top: 10%;
+    }
+    .indigu_textColumn_1_number{
+        font-size: 24px;
+    }
+    .indigu_textColumn_1 img{
+        margin-top: -10px;
+        width: 20%;
+        padding: 15px;
+    }
+    .indigu_textColumn_1_title{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .indigu_textColumn_1_disc{
+        font-size: 16px;
+    }
+    .indigu_textColumn_2_number{
+        font-size: 24px;
+    }
+    .indigu_textColumn_2 img{
+        margin-top: -10px;
+        width: 20%;
+        padding: 15px;
+    }
+    .indigu_textColumn_2_title{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .indigu_textColumn_2_disc{
+        font-size: 16px;
+    }
+    .indigu_textColumn_3_number{
+        font-size: 24px;
+    }
+    .indigu_textColumn_3 img{
+        margin-top: -10px;
+        width: 20%;
+        padding: 15px;
+    }
+    .indigu_textColumn_3_title{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .indigu_textColumn_3_disc{
+        font-size: 16px;
+    }
+    .indigu_textTestimonialsAndWords{
+        margin-top: 10%;
+    }
+    .indigu_columnNickAndRush{
+        margin-top: 7%;
+    }
+    .indigu_columnNickAndRush img{
+        margin-left: 15px;
+        width: 100px;
+        height: 100px;
+    }
+    #indigu_columnNickAndRushSpanTitle{
+        font-size: 16px;
+    }
+    #indigu_columnNickAndRushSpanSubtitle{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .indigu_columnNick p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .indigu_columnRush p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .indigu_textAboutIndigu{
+        margin-top: 10%;
+    }
+    .indigu_columAboutIndiguImage{
+        margin-top: 10%;
+    }
+    .indigu_AboutIndiguTitle{
+        font-size: 33px;
+        line-height: 54px;
+        margin-top: 15%;
+    }
+    .indigu_AboutIndiguDisc1{
+        font-size: 16px;
+        line-height: 24px;
+        width: 77%;
+    }
+    .indigu_AboutIndiguDisc2{
+        font-size: 16px;
+        line-height: 24px;
+        width: 72%;
+    }
+    .indigu_AboutIndiguReadmore{
+        font-size: 14px;
+    }
+    .indigu_joinTheIndiguPLP{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .indigu_joinTheIndiguPLP .card{
+        padding: 3%;
+    }
+    .indigu_joinTheIndiguPLPText{
+        font-size: 50px;
+        line-height: 54px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .indigu_joinTheIndiguPLP button{
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        font-size: 18px;
+        margin-top: -140px;
+        margin-left: 700px;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 2560.98px) {
+    .indigu_textOneClick h1{
+        font-size: 33px;
+        line-height: 55px;
+        margin-top: 5%;
+        width: 85%;
+    }
+    .indigu_columnDiagnoseSpan1::after{
+        content: "\A";
+        white-space: pre;
+    }
+    .indigu_columnDiagnoseSpan2::after{
+        content: "\A";
+        white-space: pre;
+    }
+    .indigu_columnDiagnoseSpan4_inner{
+        font-size: 33px;
+        line-height: 55px;
+    }
+    .indigu_textWelcome{
+        font-size: 18px;
+        line-height: 26px;
+        width: 85%;
+    }
+    .indigu_diagnoseBtn{
+        border-radius: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .indigu_diagnoseBtn span{
+        font-size: 16px;
+    }
+    .indigu_columnDiagnoseImage{
+        width: 700px;
+    }
+    .indigu_textHowItWorksSimpleSteps{
+        margin-top: 10%;
+    }
+    .indigu_textColumn_1_number{
+        font-size: 24px;
+    }
+    .indigu_textColumn_1 img{
+        margin-top: -8px;
+        width: 20%;
+        padding: 15px;
+    }
+    .indigu_textColumn_1_title{
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .indigu_textColumn_1_disc{
+        font-size: 16px;
+    }
+    .indigu_textColumn_2_number{
+        font-size: 24px;
+    }
+    .indigu_textColumn_2 img{
+        margin-top: -8px;
+        width: 20%;
+        padding: 15px;
+    }
+    .indigu_textColumn_2_title{
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .indigu_textColumn_2_disc{
+        font-size: 16px;
+    }
+    .indigu_textColumn_3_number{
+        font-size: 24px;
+    }
+    .indigu_textColumn_3 img{
+        margin-top: -8px;
+        width: 20%;
+        padding: 15px;
+    }
+    .indigu_textColumn_3_title{
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .indigu_textColumn_3_disc{
+        font-size: 16px;
+    }
+    .indigu_textTestimonialsAndWords{
+        margin-top: 10%;
+    }
+    .indigu_columnNickAndRush img{
+        margin-left: 15px;
+        width: 100px;
+        height: 100px;
+    }
+    #indigu_columnNickAndRushSpanTitle{
+        font-size: 15px;
+    }
+    #indigu_columnNickAndRushSpanSubtitle{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .indigu_columnNick p{
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 80%;
+    }
+    .indigu_columnRush p{
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 80%;
+    }
+    .indigu_textAboutIndigu{
+        margin-top: 10%;
+    }
+    .indigu_columAboutIndiguImage{
+        margin-top: 10%;
+    }
+    .indigu_AboutIndiguTitle{
+        font-size: 33px;
+        line-height: 54px;
+        margin-top: 15%;
+    }
+    .indigu_AboutIndiguDisc{
+        font-size: 16px;
+        line-height: 24px;
+        width: 80%;
+    }
+    .indigu_AboutIndiguReadmore{
+        font-size: 14px;
+    }
+    .indigu_joinTheIndiguPLP{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .indigu_joinTheIndiguPLP .card{
+        padding: 3%;
+    }
+    .indigu_joinTheIndiguPLP .card-title{
+        font-size: 50px;
+        line-height: 54px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .indigu_joinTheIndiguPLP button{
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+        font-size: 18px;
+        margin-top: -140px;
+        margin-left: 850px;
+    }
+}

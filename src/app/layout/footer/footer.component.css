@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.indigu_trainingDesigned{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.indigu_legalNotice{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.indigu_allRights{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 319.98px){
+    .indigu_footerNavbarImg{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 30px;
+    }
+    .indigu_trainingDesigned{
+        text-align: center;
+        font-size: 12px;
+        margin-left: 30px !important;
+    }
+    
+    .indigu_legalNotice{
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .indigu_allRights{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 13% !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 339.98px){
+    .indigu_footerNavbarImg{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 30px;
+    }
+    .indigu_trainingDesigned{
+        text-align: center;
+        font-size: 12px;
+        margin-left: 20% !important;
+    }
+    
+    .indigu_legalNotice{
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .indigu_allRights{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20% !important;
+    }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 409.98px){
+    .indigu_footerNavbarImg{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 35px;
+    }
+    .indigu_trainingDesigned{
+        text-align: center;
+        font-size: 12px;
+        margin-left: 23% !important;
+        margin-right: 30% !important;
+    }
+    
+    .indigu_legalNotice{
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .indigu_allRights{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 23% !important;
+        margin-right: 10% !important;
+    }
+}
+
+@media only screen and (min-width: 410px) and (max-width: 479.98px){
+    .indigu_footerNavbarImg{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 45px;
+    }
+    .indigu_trainingDesigned{
+        text-align: center;
+        font-size: 14px;
+        margin-left: 23% !important;
+        margin-right: 30% !important;
+    }
+    
+    .indigu_legalNotice{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .indigu_allRights{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 23% !important;
+        margin-right: 10% !important;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767.98px){
+    .indigu_footerNavbarImg{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 45px;
+    }
+    .indigu_trainingDesigned{
+        text-align: center;
+        font-size: 14px;
+        margin-left: 31% !important;
+        margin-right: 30% !important;
+    }
+    
+    .indigu_legalNotice{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .indigu_allRights{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 31% !important;
+        margin-right: 10% !important;
+    }
+}
